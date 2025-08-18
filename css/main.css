@@ -1,0 +1,66 @@
+
+
+  
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-image: url('/images/avaengers\ photo.jfif');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+        .Title {
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+            color: white;
+
+
+        }
+
+        .cards-parent {
+
+            display: flex;
+            justify-content: center;
+            /*افقي*/
+            align-items: center;
+            /* عامودي*/
+            justify-content: space-evenly;
+            height: 100vh;
+
+        }
+
+
+        .child {
+            width: 23%;
+            height: 300px;
+
+
+
+        }
+
+        .child1 {
+            background-color: rgba(128, 0, 0, 0.5);
+            border-radius: 5px;
+
+        }
+
+        .child2 {
+            background-color: rgba(51, 0, 255, 0.5);
+        }
+
+        .child3 {
+            background-color: rgb(12, 161, 111, 0.5);
+        }
+
+        .child4 {
+            background-color: rgba(195, 69, 237, 0.349);
+        }
+   
