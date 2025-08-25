@@ -152,13 +152,13 @@
     align-items: center;
     justify-content: space-evenly;
     height: 100vh;
-    /*position: relative;*/
+    position: relative;
 }
 
 
 
 .child {
-   /* position: absolute;*/
+    position: absolute;
     width: 23%;
     height: 400px;
     border: 2px solid black;
@@ -177,24 +177,49 @@
 .ul li {
     color: white;
 }
+ .child1:hover{
+    z-index: 1;
+    background-color: rgba(142, 77, 66, 1)
+}
 
+ .child2:hover{
+    z-index: 1;
+    background-color: rgba(218, 13, 13, 1);
+}
+
+ .child3:hover{
+    z-index: 1;
+     background-color: rgba(5, 67, 94, 1);
+}
+
+ .child4:hover{
+    z-index: 1;
+    background-color: rgba(153, 13, 218, 1);
+}
 
 .child1 {
     background-color: rgba(142, 77, 66, 0.5);
-    
+    left: 300px;
+    top: 90px;
 
 }
 
 .child2 {
     background-color: rgba(218, 13, 13, 0.5);
+    left: 400px;
+    top: 90px;
 }
 
 .child3 {
     background-color: rgba(5, 67, 94, 0.5);
+    left: 500px;
+    top: 90px;
 }
 
 .child4 {
     background-color: rgba(153, 13, 218, 0.317);
+    left: 600px;
+    top: 90px;
 }
 /*media query*/
 @media (max-width:400px){
@@ -202,4 +227,9 @@
     font-size: 32px;
 }
 
+}
+@media (max-width:400px){
+    .child{
+      background-color: burlywood;
+    }
 }
