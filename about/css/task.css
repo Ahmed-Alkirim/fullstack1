@@ -6,7 +6,7 @@
 .header {
 
 
-    background-image: url('/images/famous\ res.jpg');
+    background-image: url('/about/images/famous\ res.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@
     color: rgb(219, 219, 219);
     padding: 20px;
      border-radius: 20%;
-    z-index: 2;
+    z-index: 2;/*عشان ننشا طبقات يعني عناصر فوق*/
 }
 
 .arrow-icon:hover{
@@ -146,17 +146,19 @@
 }
 
 .Menu {
-    background-image: url('/images/bb.jpg');
+    background-image: url('/about/images/bb.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
     height: 100vh;
+    /*position: relative;*/
 }
 
 
 
 .child {
+   /* position: absolute;*/
     width: 23%;
     height: 400px;
     border: 2px solid black;
@@ -179,6 +181,7 @@
 
 .child1 {
     background-color: rgba(142, 77, 66, 0.5);
+    
 
 }
 
@@ -192,4 +195,11 @@
 
 .child4 {
     background-color: rgba(153, 13, 218, 0.317);
+}
+/*media query*/
+@media (max-width:400px){
+.title{
+    font-size: 32px;
+}
+
 }
