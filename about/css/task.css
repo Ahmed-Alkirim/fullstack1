@@ -69,8 +69,11 @@
 
 .title {
     position: absolute;
-    top: 80px;
+   
+    top: 100px;
     left: 290px;
+    display: flex;
+    justify-content: center;
     font-family: "Playwrite HU", cursive;
     text-align: center;
 
@@ -83,7 +86,8 @@
 .header-icon {
     display: flex;
     align-items: end;
-    height: 400px;
+   justify-content: left;
+    height: 550px;
 
 
 
