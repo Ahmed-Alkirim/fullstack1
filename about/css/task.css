@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+.contener{
+    position: relative;
+}
 .header {
 
 
@@ -67,6 +70,9 @@
 
 
 .title {
+    position: absolute;
+    top: 50px;
+    left: 270px;
     font-family: "Playwrite HU", cursive;
     text-align: center;
 
