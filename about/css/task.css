@@ -5,9 +5,10 @@
 
 
 .header {
- position: relative;
 
-    background-image: url('/about/images/famous\ res.jpg');
+    position: relative;
+    background-image:linear-gradient(rgba(3, 117, 127, 0.562),rgb(0 0 0 /0.6)),
+    url('/about/images/famous\ res.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,30 +28,32 @@
     background-color: rgba(133, 142, 9, 0.527);
     color: rgb(219, 219, 219);
     padding: 20px;
-     border-radius: 20%;
-    z-index: 2;/*عشان ننشا طبقات يعني عناصر فوق*/
+    border-radius: 20%;
+    z-index: 2;
+    /*عشان ننشا طبقات يعني عناصر فوق*/
 }
 
-.arrow-icon:hover{
+.arrow-icon:hover {
     box-shadow: 2px 3px 10px red;
     border-radius: 5px;
     transition: all 0.5 ease-in-out;
     cursor: pointer;
-   
+
 }
 
-.arrow-icon a{
+.arrow-icon a {
     color: white;
     text-decoration: none;
 }
 
 .navbar {
+
     display: flex;
     justify-content: right;
     position: fixed;
     right: 0;
     /*انه الروابط تكون ع اليمين*/
-
+    z-index: 2;
 }
 
 .navbar a {
@@ -60,7 +63,13 @@
     text-decoration: none;
     font-size: 26px;
 }
-
+.logo{
+   
+    float: left;
+    padding-right: 10%;
+    padding-top: 10%;
+    
+}
 .navbar a:hover {
     color: var(--main);
 
@@ -69,16 +78,16 @@
 
 .title {
     position: absolute;
- 
+
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 
+    z-index: 1;
     font-family: "Playwrite HU", cursive;
- 
+
 
     font-weight: bold;
     font-size: 28px;
@@ -89,9 +98,10 @@
 .header-icon {
     display: flex;
     align-items: end;
-   justify-content: left;
+    justify-content: left;
     height: 550px;
-
+    z-index: 2;
+    position: absolute;
 
 
 }
@@ -99,7 +109,7 @@
 .header-icon i {
     width: 40px;
     height: 40px;
-    color: rgba(0, 0, 0 );
+    color: rgba(0, 0, 0);
     font-size: 24px;
     border: 2px solid black;
     background-color: var(--light);
@@ -109,13 +119,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 
 
 .header-icon i:hover {
-    color: rgb(0, 0,0);
+    color: rgb(0, 0, 0);
     cursor: pointer;
     border-color: var(--main);
     border-style: dashed;
@@ -188,22 +198,23 @@
 .ul li {
     color: white;
 }
- .child1:hover{
+
+.child1:hover {
     z-index: 1;
     background-color: rgba(142, 77, 66, 1)
 }
 
- .child2:hover{
+.child2:hover {
     z-index: 1;
     background-color: rgba(218, 13, 13, 1);
 }
 
- .child3:hover{
+.child3:hover {
     z-index: 1;
-     background-color: rgba(5, 67, 94, 1);
+    background-color: rgba(5, 67, 94, 1);
 }
 
- .child4:hover{
+.child4:hover {
     z-index: 1;
     background-color: rgba(153, 13, 218, 1);
 }
@@ -232,15 +243,17 @@
     left: 600px;
     top: 90px;
 }
+
 /*media query*/
-@media (max-width:400px){
-.title{
-    font-size: 32px;
-}
+@media (max-width:400px) {
+    .title {
+        font-size: 32px;
+    }
 
 }
-@media (max-width:400px){
-    .child{
-      background-color: burlywood;
+
+@media (max-width:400px) {
+    .child {
+        background-color: burlywood;
     }
 }
