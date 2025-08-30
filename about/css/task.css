@@ -7,8 +7,8 @@
 .header {
 
     position: relative;
-    background-image:linear-gradient(rgba(3, 117, 127, 0.562),rgb(0 0 0 /0.6)),
-    url('/about/images/Best-Restaurants-In-Positano-Italy-scaled.jpg');
+    background-image:linear-gradient(rgba(6, 86, 133, 0.662),rgb(0 0 0 /0.6)),
+    url('/about/images/new\ res.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,7 +62,7 @@
     margin-inline: 30px;
     color: white;
     text-decoration: none;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 
@@ -92,11 +92,11 @@
     align-items: center;
 
     z-index: 1;
-    font-family: "Playwrite HU", cursive;
+   font-family: "Alegreya";
 
 
     font-weight: bold;
-    font-size: 28px;
+    font-size: 46px;
     color: white;
 
 }
@@ -140,13 +140,87 @@
     /*انه لما يجي الماوس ع الايقونه رح يتغير شكله يعني رح يصير على شكل اليد مثلا*/
 }
 
+.intro{
+     display: flex;
+
+    /* background-image: url('/images/ابيض.png');*/
+    background-color:white;
+    color: rgba(28, 28, 25, 0.7);
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    height: 120vh;
+}
+
+.first{
+    display: block;
+
+    padding-inline: 100px;
+    padding-block: 80px;
+    font-family: 'Pacifico', cursive; 
+}
+h2,h4{
+    font-size: 42px;
+     font-family:     "Alegreya";
+     color: rgb(18, 16, 13);
+    
+}
+
+.first p{
+      display: block;
+   margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 5px;
+    line-height: 1.86;
+    width: 100%;
+}
+
+.olist{
+      list-style: none;
+    padding: 0;
+    margin-top: 40px;
+    height: 40vh;
+      line-height: 2.5;
+}
+
+.olist li{
+        margin-bottom: 12px;
+display: flex;
+align-items: center;
+}
+
+.olist i{
+    border: solid white 1px;
+    color: white;
+    margin-right: 20px;
+    background-color: rgba(130, 88, 21, 0.379);
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    line-height: 52px;
+    font-size: 24px;
+    top: 2px;
+
+}
+
+
+.image{
+    display: flex;
+    margin-top: 20px;
+    padding-top: 20;
+    
+
+    width: 400px;
+    height: 500px;
+
+}
+
 .about {
     display: flex;
 
     /* background-image: url('/images/ابيض.png');*/
-    background-color:#fdf3e7;
-
-    height: 100vh;
+    background-color:whitesmoke;
+ color: rgba(28, 28, 25, 0.7);
+    height: 120vh;
 }
 
 
@@ -161,10 +235,12 @@
 
 }
 
-h2{
-    font-size: 32px;
+h3,h5{
+    font-size: 22px; 
+    
+    margin-top: 10px;
      font-family: "Playwrite HU", cursive;
-     color: rgb(121, 75, 16);
+     color: rgb(121, 75, 16 ,0.4);
     
 }
 .para p{
@@ -198,13 +274,27 @@ align-items: center;
 
  }
 
+ .list i{
+  
+  
+    margin-right: 20px;
+    color: rgba(130, 88, 21, 0.379);
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    line-height: 52px;
+    font-size: 20px;
+    top: 2px;
+
+}
+
 .img {
     display: flex;
     margin-top: 20px;
     padding-top: 20;
-    border-radius: 10%;
 
-    width: 400px;
+
+    width: 500px;
     height: 500px;
 
 }
