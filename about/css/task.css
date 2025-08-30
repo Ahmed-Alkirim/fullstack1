@@ -8,7 +8,7 @@
 
     position: relative;
     background-image:linear-gradient(rgba(3, 117, 127, 0.562),rgb(0 0 0 /0.6)),
-    url('/about/images/famous\ res.jpg');
+    url('/about/images/Best-Restaurants-In-Positano-Italy-scaled.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,6 +54,7 @@
     right: 0;
     /*انه الروابط تكون ع اليمين*/
     z-index: 2;
+
 }
 
 .navbar a {
@@ -63,10 +64,15 @@
     text-decoration: none;
     font-size: 26px;
 }
+
+
 .logo{
-   
+    
+
+  
+
     float: left;
-    padding-right: 10%;
+    padding-right: 20%;
     padding-top: 10%;
     
 }
@@ -138,7 +144,7 @@
     display: flex;
 
     /* background-image: url('/images/ابيض.png');*/
-    background-color: antiquewhite;
+    background-color:#fdf3e7;
 
     height: 100vh;
 }
@@ -146,14 +152,49 @@
 
 .para {
 
-    display: flex;
-    margin-inline: 50px;
-    padding-inline: 150px;
-    padding-block: 150px;
-    font-family: "Playwrite HU", cursive;
-    ;
+    display: block;
+
+    padding-inline: 100px;
+    padding-block: 80px;
+    font-family: 'Pacifico', cursive; 
+    
 
 }
+
+h2{
+    font-size: 32px;
+    
+}
+.para p{
+   
+   display: block;
+   margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 5px;
+    line-height: 1.86;
+    width: 100%;
+    
+   /* background-color:blue*/
+}
+
+ .list{
+ 
+
+/*background-color: aqua;*/
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+    height: 40vh;
+      line-height: 2.5;
+ }
+ .list li{
+
+    margin-bottom: 12px;
+display: flex;
+align-items: center;
+
+
+ }
 
 .img {
     display: flex;
@@ -165,6 +206,10 @@
     height: 500px;
 
 }
+
+
+
+
 
 .Menu {
     background-image: url('/about/images/bb.jpg');
