@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+
+height: 608px;
+z-index: 1;
+   position: relative;
+    padding-bottom: 5px;
+    background-image: url(/about/images/shutterstock_277750193.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+ 
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    /* يحركهم عمودي */
+    justify-content: center;
+    /* يحركهم أفقي */
+
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    z-index: 100;
+
+
+
+}
+
+.nav-contaner {
+    width: 100%;
+    height: 90px;
+    margin-inline: 62.333px;
+    padding-inline: 16.875px;
+}
+
+.nav-left {
+    float: left;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 13px;
+}
+
+.nav-right {
+    float: right;
+
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+
+.nav-right a {
+
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-inline: 14px;
+
+    height: 88px;
+
+
+
+
+}
+
+.nav-left a {
+    margin-inline: 18px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+
+.inner {
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+
+    justify-content: center;
+}
+
+.inner-contant {
+   
+
+}
+
+.image{
+    width: 700px;
+}
+ 
+.image img{
+    margin-inline: 150px;
+    margin-bottom: 20px;
+}
+
+.contant {
+display: flex;
+background-color: #968d7c;
+
+   
+
+}
+
+h1 {
+    font-family: "Alegreya";
+    color: white;
+    font-size: 76px;
+    margin-bottom: 18px;
+    font-weight: 200;
+
+}
+
+.par {
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: "Dancing Script";
+    font-weight: normal;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    height: 74px;
+
+}
+
+.buttons {
+    display: flex;
+
+
+align-items: center;
+    justify-content: space-evenly;
+    
+width: 700px;
+margin-top: 30px;
+
+height: 69px;
+
+
+
+  
+
+}
+
+.btn {
+    border: 2px solid white;
+    border-radius: 6%;
+    padding: 20px;
+
+    padding-inline: 30px;
+    text-decoration: none;
+    font-family: "Alegreya";
+    font-weight: bold;
+}
+
+.btn1 {
+    background-color: rgb(150, 141, 124);
+    color: white;
+    margin-left: 120px;
+
+}
+
+.btn2 {
+    background-color: white;
+    color: black;
+    margin-right: 120px;
+}
+
+.btn1:hover {
+    background: white;
+    color: black;
+}
+
+.btn2:hover {
+    background: #968d7c;
+    color: white;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: white;
+    color: rgba(28, 28, 25, 0.7);
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    min-height: 80vh;
+    /* بدل height: 100vh */
+    padding: 120px 60px;
+    /* padding فوق عشان ما يلتصق */
+
+}
+
+.first {
+    display: block;
+
+    padding-left: 80px;
+    padding-block: 80px;
+    font-family: "Alegreya";
+    margin-left: 70px;
+}
+
+h2,
+h4 {
+    font-size: 42px;
+    font-family: "Alegreya";
+    font-weight: 200;
+    color: rgb(18, 16, 13);
+
+}
+
+h3,
+h5 {
+    font-size: 22px;
+
+    margin-top: 10px;
+    
+    font-family: "Playwrite HU", cursive;
+    color: rgb(121, 75, 16, 0.7);
+
+}
+
+.first p {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 5px;
+    line-height: 1.86;
+    width: 100%;
+
+}
+
+.olist {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+    height: 40vh;
+    line-height: 2.5;
+}
+
+.olist li {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.olist i {
+    border: solid white 1px;
+    color: white;
+    margin-right: 20px;
+    background-color: rgba(135, 89, 14, .5);
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    line-height: 52px;
+    font-size: 24px;
+    top: 2px;
+
+}
+
+
+.ima {
+    display: flex;
+    margin-top: 20px;
+    padding-top: 20;
+    margin-left: 1px;
+    margin-right: 10px;
+    width: 550px;
+    height: 600px;
+
+}
+
+.ima img {
+    width: 400px;
+    height: 500px;
+    filter: drop-shadow(10px 10px 20px rgb(83, 79, 79));
+}
+
+.about {
+    display: flex;
+
+    /* background-image: url('/images/ابيض.png');*/
+    background-color: whitesmoke;
+    color: rgba(28, 28, 25, 0.7);
+    
+    justify-content: space-between;
+   
+    padding-block: 90px;
+    padding-inline: 63px;
+}
+
+
+.para {
+
+    display: inline-block;
+color: rgba(39, 37, 37, 0.);
+    font-size: 18px;
+    width: 50%;
+  
+     font-family: "Alegreya";
+    padding-top: 20px;
+    margin-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.para p {
+
+    display: block;
+
+    margin-bottom: 18px;
+
+    line-height: 1.86;
+    width: 100%;
+    
+    /* background-color:blue*/
+}
+
+.list {
+
+    list-style: none;
+
+width: 100%;
+margin-bottom: 18px;
+
+
+}
+
+.list li {
+
+
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.list li i {
+
+    display: flex;
+    width: 22px;
+    margin: 0px 10px 0px 0px;
+    text-align: center;
+    color: rgba(130, 88, 21, 0.379);
+    margin-right: 9px;
+    border-radius: 100%;
+    line-height: 52px;
+    font-size: 16px;
+    top: 2px;
+
+}
+
+.img {
+    display: flex;
+  
+ 
+    width: 547px;
+    height: 483px;
+    
+    padding-left: 22px;
+
+
+}
+
+.img img {
+
+    width: 540px;
+    height: 433px;
+}
+
+
+
+.bg-attachment{
+    height: 501px;
+    background-color: aqua;
+    background-image:url(/about/images/Best-Restaurants-In-Positano-Italy-scaled.jpg); 
+    background-attachment:fixed;
+  
+}
+
+.Menu{
+    height: 1350px;
+     display: flex;
+  
+    padding-top: 70px;
+    padding-bottom: 75px;
+    padding-inline: 62px;
+}
+
+
+
+.fi h1{
+    font-family: "Alegreya";
+    color: black;
+    font-size: 32px;
+width: 1110px;
+  height: 49px;
+  text-align: center;
+margin-bottom: 8px;
+    
+}
+
+.se h2{
+   
+
+  font-family: "Playwrite HU", cursive;
+ 
+
+    color: rgb(179, 117, 26,.6);
+    font-size: 26px;
+width: 1110px;
+  height: 49px;
+  text-align: center;
+margin-bottom: 45px;
+    
+}
+
+.top{
+   
+    height: 454px;
+    width: 1140px;
+    padding-bottom: 40px; 
+
+}
+
+.bottom{
+   
+     height: 454px;
+    width: 1140px;
+    padding-bottom: 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+ align-items: center;
+
+}
+
+.card{
+
+   
+    width: 380px;
+    height: 458px;
+}
+
+.card1{
+
+
+}
+
+.card2{
+
+    
+}
+
+.card3{
+
+    
+}
+
+.im{
+    
+width: 345px;
+height: 287px;
+
+margin-bottom: 30px;
+}
+
+.im img{
+   
+    width: 100%;
+height: 100%;
+}
+
+.ti{
+    margin-bottom: 15px;
+}
+
+.ti h4{
+    font-size: 21px;
+    text-align: center;
+
+}
+
+.pa{
+    margin-bottom: 30px;
+}
+
+.pa p{
+    font-size: 21px;
+    color:#979288;
+   
+    
+}
