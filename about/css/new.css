@@ -403,7 +403,7 @@ margin-bottom: 18px;
 }
 
 .Menu{
-    height: 1350px;
+    height: 1205px;
      display: flex;
   
     padding-top: 70px;
@@ -431,7 +431,7 @@ margin-bottom: 8px;
  
 
     color: rgb(179, 117, 26,.6);
-    font-size: 26px;
+    font-size: 20px;
 width: 1110px;
   height: 49px;
   text-align: center;
@@ -516,4 +516,581 @@ height: 100%;
     color:#979288;
    
     
+}
+
+.under{
+    width: 1110px;
+    height: 61px;
+    
+display: flex;
+justify-content: center;
+
+
+}
+
+
+
+
+
+.b1 {
+   
+    background-color: rgb(146, 127, 92);
+    color: white;
+
+ border: 2px solid white;
+    border-radius: 6%;
+    padding: 20px;
+
+    text-decoration: none;
+    font-family: "Alegreya";
+    font-weight: bold;
+}
+
+.our{
+    width:1140px ;
+    height: 644px;
+      background-image: url(/about/images/shutterstock_277750193.jpg);
+       background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+      padding-left: 62px;
+      padding-right: 62px;
+      padding-top: 100px;
+      padding-bottom: 75px;
+}
+
+.in{
+    width: 1140px;
+    height: 469px;
+    position: relative;
+    
+  
+}
+
+.qicon{
+ 
+ display: flex;
+    width: 1110px;
+    height: 60px;
+    margin-bottom: 15px;
+    justify-content: center;
+  
+
+}
+
+.qicon i{
+  
+
+    color: white;
+    font-size: 40px;
+}
+
+.ab{
+    width: 1110px;
+    height: 42px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.ab h1{
+    font-size: 32px;
+    font-weight: 400px;
+     color: white;
+       font-family: "Alegreya";
+}
+
+.p{
+    width: 999px;
+    height: 192px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-bottom: 40px;
+}
+
+.p p{
+    color: white;
+    font-size: 32px;
+    font-weight: normal;
+      font-family: "Alegreya";
+      line-height: 2em;
+}
+
+.apple{
+    width: 1110px;
+    height: 68px;
+  
+    
+  
+
+}
+.p1{
+      width: 1110px;
+    height: 33px;
+   text-align: center;
+    color: white;
+     font-family: "Alegreya";
+     font-size: 20px;
+}
+
+.p2{
+      width: 1110px;
+    height: 33px;
+  text-align: center;
+    color:slategray;
+     font-family: "Alegreya";
+     font-size: 20px;
+     font-weight: lighter;
+}
+
+.where{
+      display: flex;
+
+    /* background-image: url('/images/ابيض.png');*/
+    background-color:white;
+    color: rgba(28, 28, 25, 0.7);
+    
+    justify-content: space-between;
+   
+    padding-block: 90px;
+    padding-inline: 63px;
+}
+.titp{
+margin-bottom: 30px;
+}
+
+.h4{
+    margin-bottom: 25px;
+}
+
+.para11{
+        display: inline-block;
+color: rgba(39, 37, 37, 0.);
+    font-size: 18px;
+    width: 50%;
+  
+     font-family: "Alegreya";
+   
+    padding-right: 23px;
+   
+
+}
+.para11 p {
+
+    display: block;
+
+    margin-bottom: 18px;
+
+    line-height: 1.86;
+    width: 100%;
+    
+    /* background-color:blue*/
+}
+
+.alon{
+    margin-bottom: 18px;
+}
+
+.list11{
+        list-style: none;
+
+width: 100%;
+margin-bottom: 18px;
+}
+
+
+.list11 li {
+
+
+    display: flex;
+
+    align-items: center;
+    line-height: 4em;
+
+    
+}
+
+.list11 li i {
+
+    display: flex;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+    background-color: #b59555;
+    text-align: center;
+  color: white;
+    margin-right: 9px;
+    border: 2px solid ;
+    border-radius: 100%;
+  align-items: center;
+   
+   
+
+}
+
+
+.img11 {
+    display: flex;
+  
+ 
+    width: 547px;
+    height: 565px;
+    
+    padding-left: 23px;
+
+
+}
+
+.img11 iframe {
+
+  width: 100%;
+  height: 100%;
+}
+
+
+.footer{
+    width: 1264px;
+    height: 929px;
+    background-color: hsl(40, 43%, 11%);
+}
+
+.footertop{
+     width: 1264px;
+    height: 342px;
+    background-color: #312d25 ;
+    padding-top: 60px;
+    padding-bottom: 52px;
+
+}
+
+.incontaner{
+     width: 1106px;
+    height: 342px;
+    padding-left: 17px;
+    padding-right: 17px;
+   margin-left: 62px;
+   margin-right: 62px;
+}
+
+ .row{
+    display: flex;
+    width: 1140px;
+    height: 342px;
+     padding-left: -17px;
+    padding-right: -17px;
+ }
+.aboutus{
+  
+    width: 251px;
+    height: 288px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.abs{
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: white;
+     font-family: "Alegreya";
+}
+.num{
+    height: 228px;
+    line-height: 1.5em;
+}
+
+.one{
+    margin-bottom: 20px;
+    color: white;
+    
+     font-family: "Alegreya";
+     height: 148px;
+}
+
+.two{
+    color: white;
+    
+     font-family: "Alegreya";
+}
+
+.useful{
+    
+      width: 251px;
+    height: 245px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.lis{
+    height: 187px;
+}
+
+.lis ul{
+    width: 100%;
+    height: 100%;
+}
+
+.lis ul li{
+ width: 251px;
+    height: 34px;
+    border-bottom: 0.5px;
+    border-top:0;
+    border-right: 0;
+    border-left: 0;
+    border-color: rgb(64, 59, 49);
+    border-style: solid;
+    padding-bottom: 7px;
+    margin-bottom: 6px;
+    list-style-type:none;
+    color: white;
+    font-weight: lighter;
+}
+
+.lis a{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-inline: 14px;
+font-weight: lighter;
+    height: 88px;
+}
+
+.open{
+       width: 251px;
+    height: 342px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.lis1{
+    height: 284px;
+}
+
+.lis1 ul{
+    width: 100%;
+    height: 100%;
+}
+
+.lis1 ul li{
+    width: 251px;
+    height: 34px;
+    border-bottom: 0.5px;
+    border-top:0;
+    border-right: 0;
+    border-left: 0;
+    border-color: rgb(64, 59, 49);
+    border-style: solid;
+    padding-bottom: 7px;
+    margin-bottom: 6px;
+    list-style-type:none;
+    color: white;
+    font-weight: lighter;
+    
+}
+
+.lis1 a{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-inline: 14px;
+font-weight: lighter;
+    height: 88px;
+}
+
+.detail{
+       width: 251px;
+    height: 306px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.map{
+     width: 251px;
+     height: 79px;
+     padding-bottom: 12px;
+     margin-bottom: 12px;
+      border-bottom: 0.5px;
+    border-top:0;
+    border-right: 0;
+    border-left: 0;
+    border-color: rgb(64, 59, 49);
+    border-style: solid;
+line-height: 2em;
+    color: white;
+    font-size: 16px;
+}
+.map span{
+    padding-left: 20px;
+}
+.map i{
+    width: 18px;
+    height: 18px;
+}
+
+.tel{
+       width: 251px;
+     height: 46px;
+     padding-bottom: 12px;
+     margin-bottom: 12px;
+      border-bottom: 0.5px;
+    border-top:0;
+    border-right: 0;
+    border-left: 0;
+    border-color: rgb(64, 59, 49);
+    border-style: solid;
+line-height: 2em;
+    color: white;
+}
+
+.tel span{
+    padding-left: 20px;
+}
+
+.tel a{
+    color: white;
+      text-decoration: none;
+}
+
+.tel i{
+    width: 18px;
+    height: 18px;
+}
+
+
+.email{
+
+       width: 251px;
+     height: 46px;
+     padding-bottom: 12px;
+     margin-bottom: 12px;
+      border-bottom: 0.5px;
+    border-top:0;
+    border-right: 0;
+    border-left: 0;
+    border-color: rgb(64, 59, 49);
+    border-style: solid;
+line-height: 2em;
+    color: white;
+
+}
+
+.email span{
+    padding-left: 20px;
+}
+
+.email a{
+    color: white;
+      text-decoration: none;
+}
+
+.email i{
+    width: 18px;
+    height: 18px;
+}
+
+
+.url{
+       width: 251px;
+     height: 45px;
+    padding-bottom: 12px;
+     margin-bottom: 12px;
+      border-bottom: 0.5px;
+    border-top:0;
+    border-right: 0;
+    border-left: 0;
+    border-color: rgb(64, 59, 49);
+    border-style: solid;
+line-height: 2em;
+    color: white;
+
+}
+
+.url span{
+    padding-left: 20px;
+}
+
+.url a{
+    color: white;
+      text-decoration: none;
+}
+
+.url i{
+    width: 18px;
+    height: 18px;
+}
+
+
+.footerbottom{
+    height: 384px;
+     width: 1264px;
+     padding-top:50px ;
+     padding-bottom: 40px;
+     background-color: #343027;
+}
+
+.botcontaner{
+
+    width: 1106px;
+    height: 374px;
+    padding-left: 17px;
+    padding-bottom: 17px;
+    margin-left: 62px;
+    margin-right: 62px;
+}
+
+.btrow{
+    width: 1140px;
+    height: 374px;
+
+}
+
+.footer_img{
+
+    width: 1140px;
+    height: 220px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.copy{
+    width: 1106px;
+    height: 33.5px;
+    padding-right: 17px;
+    padding-left: 17px;
+}
+
+.copy p{
+     text-align: center;
+    color:grey;
+     font-family: "Alegreya";
+     font-size: 18px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    width: 1140px;
+    height: 72px;
+    margin-top: 15px;
+    padding-top: 8px;
+}
+
+.icon i {
+    width: 55px;
+    height: 55px;
+    color: rgba(0, 0, 0);
+    font-size: 24px;
+    border: .1px solid ;
+    background-color: rgb(59, 56, 51);
+    border-radius: 50%;
+    margin-inline: 8px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
