@@ -1080,9 +1080,9 @@ line-height: 2em;
 }
 
 .icon i {
-    width: 55px;
-    height: 55px;
-    color: rgba(0, 0, 0);
+    width: 50px;
+    height: 50px;
+color:  #656667;
     font-size: 24px;
     border: .1px solid ;
     background-color: rgb(59, 56, 51);
@@ -1092,5 +1092,15 @@ line-height: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
+}
+.icon i:hover {
+    color:white;
+    cursor: pointer;
+ background-color: rgb(23, 97, 180);
+
+  
+   
+    
 }
